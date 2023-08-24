@@ -1,0 +1,44 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color */
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Style navigation */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Style main content */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+}
+
+/* Style footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
