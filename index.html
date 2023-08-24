@@ -2,44 +2,48 @@
 <html>
 <head>
     <title>My Server Rental Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="features.html">Features</a>
-            <a href="contact.html">Contact</a>
+
+    <header class="bg-dark text-white text-center py-3">
+        <img src="images/logo.png" alt="Logo" class="img-fluid">
+        <nav class="d-inline-block mt-2">
+            <a href="index.html" class="mx-3 text-white">Home</a>
+            <a href="about.html" class="mx-3 text-white">About</a>
+            <a href="features.html" class="mx-3 text-white">Features</a>
+            <a href="contact.html" class="mx-3 text-white">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section id="intro">
+    <main class="container mt-5">
+        <section id="intro" class="text-center mb-5">
             <h1>Welcome to My Server Rental Business!</h1>
             <p>We offer the best servers for all your needs.</p>
         </section>
 
-        <section id="services">
+        <section id="services" class="text-center mb-5">
             <h2>Our Services</h2>
-            <ul>
-                <li>Web Hosting</li>
-                <li>Database Servers</li>
-                <li>File Storage</li>
+            <ul class="list-group">
+                <li class="list-group-item">Web Hosting</li>
+                <li class="list-group-item">Database Servers</li>
+                <li class="list-group-item">File Storage</li>
             </ul>
         </section>
 
-        <section id="cta">
+        <section id="cta" class="text-center">
             <h2>Get Started Today!</h2>
             <p>Contact us for the best server solutions.</p>
+            <button type="button" class="btn btn-primary">Contact Us</button>
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2023 My Server Rental Business</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
